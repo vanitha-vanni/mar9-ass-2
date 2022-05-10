@@ -1,0 +1,18 @@
+n=int(input())
+d={}
+for i in range(n):
+    x=input().split()
+    d[x[0]]=x[1]
+while True:
+    try:
+        d[email_id]=input()
+        if d[email_id] in d:
+            print(d[email_id],"=",email_id,sep='')
+        else:print("cannot retrieve")
+    except:
+        break
+       output:
+       2
+12334 vanithavanni@627gmail.com
+35465 kolagayathri576@gmail.com
+12345 vanithavanni@627gamil.com
